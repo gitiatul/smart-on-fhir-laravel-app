@@ -1,0 +1,62 @@
+
+
+.py-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.top-0 {
+    top: 0 !important;
+}
+
+.right-0 {
+    right: 0 !important;
+}
+
+.text-gray-500 {
+    --text-opacity: 1 !important;
+    color: #a0aec0 !important;
+    color: rgba(160, 174, 192, var(--text-opacity)) !important;
+}
+
+.text-gray-700 {
+    --text-opacity: 1 !important;
+    color: #4a5568 !important;
+    color: rgba(74, 85, 104, var(--text-opacity)) !important;
+}
+
+.underline {
+    text-decoration: none !important;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+img {
+    display: block !important;
+    margin: 0 auto !important;
+    margin-top: 150px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    img {
+        display: block !important;
+        margin: 0 auto !important;
+        margin-top: 200px !important;
+    }
+}
